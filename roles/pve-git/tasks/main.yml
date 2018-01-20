@@ -1,0 +1,10 @@
+- name: Create pve-development in Vagrant shared directory
+  file: 
+    path: "/vagrant/pve-development/"
+    state: directory
+
+- name: Clone GIT Repos to Vagrant shared directory
+  git:
+    repo: "git://git.proxmox.com/git/{{ item }}.git"
+    dest: "/vagrant/pve-development/"
+  with_items: "{{ pve_git }}"

@@ -1,0 +1,5 @@
+- name: Install PVE Development dependencies
+  apt: 
+    name: "{{ item }}"
+    state: latest
+  with_items: "{{ pve_deps_packages }}"

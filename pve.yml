@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: true
+  roles:
+    - pve-prepare
+    - pve-repository
+    - pve-deps
+    - pve-git
+    - pve-git-dinstall

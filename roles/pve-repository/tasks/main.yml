@@ -1,0 +1,10 @@
+- name: Add pvetest apt key
+  apt_key: url={{ pve_repository.gpg }} state=present
+
+- name: Add pvetest apt repo
+  apt_repository: repo="{{ pve_repository.url }}" state=present
+
+- name: Update all packages to the latest version
+  apt:
+    update_cache: yes
+    upgrade: dist
