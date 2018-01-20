@@ -145,7 +145,7 @@ pve_git:
   - pve-manager
   - ksm-control-daemon
   - pve-container
-  - pve-kernel
+#  - pve-kernel
 # - pve-kernel-3.10.0
 # - libiscsi
 # - gfs2-utils
