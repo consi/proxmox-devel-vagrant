@@ -1,9 +1,2 @@
 - name: "Set Hostname in /etc/hosts"
   template: src="etc/hosts" dest="/etc/hosts"
-
-- name: Add jessie-backports for libcmap
-  apt_repository: repo="deb http://ftp.debian.org/debian jessie-backports main" state=present
-
-- name: "Update APT cache"
-  apt:
-    update_cache: yes
