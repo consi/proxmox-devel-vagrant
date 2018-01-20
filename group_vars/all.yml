@@ -4,6 +4,7 @@ pve_repository:
   gpg: "http://download.proxmox.com/debian/proxmox-ve-release-5.x.gpg"
 
 pve_deps_packages:
+  - proxmox-ve
   - build-essential
   - git-core
   - git-email
@@ -129,8 +130,8 @@ pve_deps_packages:
 
 pve_git:
   - pve-common
-  - libpve-http-server-perl
-  - libpve-apiclient-perl
+#  - libpve-http-server-perl
+#  - libpve-apiclient-perl
   - pve-docs
   - pve-cluster
   - pve-access-control
