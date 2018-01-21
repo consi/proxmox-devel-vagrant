@@ -1,3 +1,63 @@
-[submodule "pve-manager"]
-	path = pve-manager
+[submodule "proxmox-modules/pve-manager"]
+	path = proxmox-modules/pve-manager
 	url = git://git.proxmox.com/git/pve-manager.git
+[submodule "proxmox-modules/pve-access-control"]
+	path = proxmox-modules/pve-access-control
+	url = git://git.proxmox.com/git/pve-access-control.git
+[submodule "proxmox-modules/pve-common"]
+	path = proxmox-modules/pve-common
+	url = git://git.proxmox.com/git/pve-common.git
+[submodule "proxmox-modules/pve-apiclient"]
+	path = proxmox-modules/pve-apiclient
+	url = git://git.proxmox.com/git/pve-apiclient.git
+[submodule "proxmox-modules/proxmox-widget-toolkit"]
+	path = proxmox-modules/proxmox-widget-toolkit
+	url = git://git.proxmox.com/git/proxmox-widget-toolkit.git
+[submodule "proxmox-modules/pve-docs"]
+	path = proxmox-modules/pve-docs
+	url = git://git.proxmox.com/git/pve-docs.git
+[submodule "proxmox-modules/pve-qemu"]
+	path = proxmox-modules/pve-qemu
+	url = git://git.proxmox.com/git/pve-qemu.git
+[submodule "proxmox-modules/pve-ha-manager"]
+	path = proxmox-modules/pve-ha-manager
+	url = git://git.proxmox.com/git/pve-ha-manager.git
+[submodule "proxmox-modules/pve-cluster"]
+	path = proxmox-modules/pve-cluster
+	url = git://git.proxmox.com/git/pve-cluster.git
+[submodule "proxmox-modules/pve-installer"]
+	path = proxmox-modules/pve-installer
+	url = git://git.proxmox.com/git/pve-installer.git
+[submodule "proxmox-modules/pve-guest-common"]
+	path = proxmox-modules/pve-guest-common
+	url = git://git.proxmox.com/git/pve-guest-common.git
+[submodule "proxmox-modules/proxmox-i18n"]
+	path = proxmox-modules/proxmox-i18n
+	url = git://git.proxmox.com/git/proxmox-i18n.git
+[submodule "proxmox-modules/pve-container"]
+	path = proxmox-modules/pve-container
+	url = git://git.proxmox.com/git/pve-container.git
+[submodule "proxmox-modules/pve-http-server"]
+	path = proxmox-modules/pve-http-server
+	url = git://git.proxmox.com/git/pve-http-server.git
+[submodule "proxmox-modules/pve-xtermjs"]
+	path = proxmox-modules/pve-xtermjs
+	url = git://git.proxmox.com/git/pve-xtermjs.git
+[submodule "proxmox-modules/pve-firewall"]
+	path = proxmox-modules/pve-firewall
+	url = git://git.proxmox.com/git/pve-firewall.git
+[submodule "proxmox-modules/pve-storage"]
+	path = proxmox-modules/pve-storage
+	url = git://git.proxmox.com/git/pve-storage.git
+[submodule "proxmox-modules/pve-sheepdog"]
+	path = proxmox-modules/pve-sheepdog
+	url = git://git.proxmox.com/git/pve-sheepdog.git
+[submodule "proxmox-modules/pve-firmware"]
+	path = proxmox-modules/pve-firmware
+	url = git://git.proxmox.com/git/pve-firmware.git
+[submodule "proxmox-modules/pve-libspice-server"]
+	path = proxmox-modules/pve-libspice-server
+	url = git://git.proxmox.com/git/pve-libspice-server.git
+[submodule "proxmox-modules/pve-zsync"]
+	path = proxmox-modules/pve-zsync
+	url = git://git.proxmox.com/git/pve-zsync.git
