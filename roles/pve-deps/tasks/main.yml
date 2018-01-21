@@ -3,3 +3,8 @@
     name: "{{ item }}"
     state: latest
   with_items: "{{ pve_deps_packages }}"
+
+- name: Remove pve-enterprise repository
+  file:
+    path: "/etc/apt/sources.list.d/pve-enterprise.list"
+    state: absent
