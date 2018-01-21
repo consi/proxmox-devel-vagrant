@@ -1,0 +1,3 @@
+[submodule "pve-manager"]
+	path = pve-manager
+	url = git://git.proxmox.com/git/pve-manager.git

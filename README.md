@@ -20,7 +20,11 @@ This way You can easily dive in into Proxmox VE development to build patches for
 
 Limitations
 -----------
-You cannot test VMs inside Vagrant as VirtualBox doesn't support nested virtualization ; Main purpose of this Vagrant setup is to provide quick way to work mostly on pveproxy and web frontend.
+You cannot test VMs inside Vagrant as VirtualBox doesn't support nested virtualization ; Main purpose of this Vagrant setup is to provide quick way to work mostly on pveproxy and web frontend - using git submodule, additional submodules may be added easily by typing something like this
+
+```
+git submodule add git://git.proxmox.com/git/MODULENAME.git
+```
 
 License
 -------
