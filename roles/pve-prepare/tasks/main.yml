@@ -1,2 +1,8 @@
 - name: "Set Hostname in /etc/hosts"
   template: src="etc/hosts" dest="/etc/hosts"
+
+- name: Change root password to access PVE WebUI
+  user:
+    - name: "root"
+      update_password: always
+      password: "{{ pve_root_devel_pw }}"

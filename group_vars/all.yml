@@ -8,6 +8,8 @@ pve_deps_packages:
   - postfix
   - open-iscsi
 
+pve_root_devel_pw: "rootpass"
+
 pve_git: []
 #  - pve-common
 #  - libpve-http-server-perl
