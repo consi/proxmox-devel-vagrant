@@ -1,6 +1,6 @@
 proxmox-devel-vagrant
 =====================
-An Vagrantfile with ansible which is based on https://git.proxmox.com/?p=pve-common.git;a=blob_plain;f=README.dev;hb=HEAD
+An Vagrantfile for Proxmox Virtual Environment (PVE) development
 
 Usage
 -----
@@ -14,17 +14,17 @@ And then You can access development VM by typing:
 vagrant ssh
 ```
 
+Cloned directory is shared to /vagrant inside VM
+
 Purpose
 -------
 This way You can easily dive in into Proxmox VE development to build patches for community. Also ansible used with this Vagrant can be used with bare metal host to make deployment of proxmox development machines easier
 
 Limitations
 -----------
-You cannot test VMs inside Vagrant as VirtualBox doesn't support nested virtualization ; Main purpose of this Vagrant setup is to provide quick way to work mostly on pveproxy and web frontend - using git submodule, additional submodules may be added easily by typing something like this
+You cannot test VMs inside Vagrant as VirtualBox doesn't support nested virtualization ; Main purpose of this Vagrant setup is to provide quick way to work mostly on API and Frontend components.
+Most needed submodules are in proxmox-modules
 
-```
-git submodule add git://git.proxmox.com/git/MODULENAME.git
-```
 
 License
 -------
