@@ -1,8 +1,0 @@
-- name: Make dinstall each repository
-  make:
-    chdir: "/vagrant/pve-development/{{ item }}/"
-    target: "dinstall"
-  with_items: "{{ pve_git }}"
-
-- name: Add pvetest apt repo
-  apt_repository: repo="{{ pve_repository.url }}" state=present

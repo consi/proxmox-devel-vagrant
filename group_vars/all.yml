@@ -10,30 +10,32 @@ pve_deps_packages:
 
 pve_root_devel_pw: "rootpass"
 
-pve_git: []
-#  - pve-common
-#  - libpve-http-server-perl
-#  - libpve-apiclient-perl
-#  - pve-docs
-#  - pve-cluster
-#  - pve-access-control
-#  - pve-storage
-#  - pve-guest-common
-#  - pve-firewall
-#  - pve-qemu-kvm
-#  - qemu-server
-#  - vncterm
-#  - spiceterm
-#  - extjs
-#  - pve-manager
-#  - ksm-control-daemon
-#  - pve-container
-#  - pve-kernel
+pve_git:
+# - dab-pve-appliances
+# - pve-access-control
+  - pve-apiclient
+# - pve-cluster
+  - pve-common
+# - pve-container
+# - pve-docs
+# - pve-firewall
+# - pve-firmware
+# - pve-guest-common
+# - pve-ha-manager
+  - pve-http-server
+# - pve-installer
+  - pve-jslint
+# - pve-kernel-2.6.32
 # - pve-kernel-3.10.0
-# - libiscsi
-# - gfs2-utils
-# - vzquota
-# - vzctl
-# - fence-agents-pve
-# - resource-agents-pve
-# - pve2-api-doc.git
+# - pve-kernel-jessie
+# - pve-kernel
+# - pve-libspice-server
+# - pve-manager
+# - pve-omping
+# - pve-qemu-kvm
+# - pve-qemu
+# - pve-sheepdog
+# - pve-spice-protocol
+# - pve-storage
+# - pve-xtermjs
+# - pve-zsync
