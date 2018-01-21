@@ -3,6 +3,6 @@
 
 - name: Change root password to access PVE WebUI
   user:
-    - name: "root"
-      update_password: always
-      password: "{{ pve_root_devel_pw }}"
+    name: "root"
+    update_password: always
+    password: "{{ pve_root_devel_pw }}"
