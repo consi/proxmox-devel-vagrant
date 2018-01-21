@@ -5,7 +5,7 @@ Vagrant.configure("2") do |config|
             vbox.customize ["modifyvm", :id, "--memory", 2048]
             vbox.customize ["modifyvm", :id, "--cpus", 4]
         end
-        machine.vm.synced_folder ".", "/vagrant"
+        machine.vm.synced_folder ".", "/vagrant", owner: "root", group: "root"
         machine.vm.box = "debian/stretch64"
         machine.ssh.insert_key = false
         machine.vm.network "forwarded_port", guest: 8006, host: 8006
