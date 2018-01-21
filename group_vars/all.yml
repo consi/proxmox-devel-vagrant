@@ -18,6 +18,7 @@ pve_git:
   - pve-apiclient
 # - pve-cluster
   - pve-common
+  - pve-manager
 # - pve-container
 # - pve-docs
 # - pve-firewall
