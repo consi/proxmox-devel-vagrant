@@ -7,6 +7,8 @@ pve_deps_packages:
   - proxmox-ve
   - postfix
   - open-iscsi
+  - git
+  - build-essential
 
 pve_root_devel_pw: "rootpass"
 
